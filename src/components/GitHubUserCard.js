@@ -2,7 +2,7 @@ import React from 'react';
 
 const GitHubUserCard = ({ user }) => {
   return (
-    <div className={`flex items-center rounded-md w-90 my-2 mt-8 pt-5 py-5 bg-white text-cyan-500 shadow-lg shadow-cyan-600 p-4 ${user ? 'transform transition-transform duration-200' : ''}`}>
+    <div className= "flex items-center rounded-md w-90 my-2 mt-8 pt-5 py-5 bg-white text-cyan-500 shadow-lg shadow-cyan-600 p-4 hover:scale-105 transform transition-transform duration-300 ">
       <div className='flex item-left'>
         <img
           src={user.avatar_url}
